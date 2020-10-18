@@ -1,0 +1,30 @@
+{
+  "name": "that-portfolio-v3",
+  "version": "1.0.0",
+  "description": "updated portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jen6one9/that-portfolio-v3.git"
+  },
+  "keywords": [
+    "portfoliov3"
+  ],
+  "author": "jeneth diesta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jen6one9/that-portfolio-v3/issues"
+  },
+  "homepage": "https://github.com/jen6one9/that-portfolio-v3#readme",
+  "dependencies": {
+    "purecss": "^2.0.3",
+    "rework": "^1.0.1",
+    "rework-pure-grids": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt-pure-grids": "^2.0.0"
+  }
+}
