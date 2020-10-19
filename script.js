@@ -12,3 +12,8 @@ const css = rework('').use(pureGrids.units({
 
 // This will log-out the grid CSS.
 console.log(css);
+
+.main-header.fixed-header .main-box .logo-box .logo img{
+    height: 50px;
+    content: url("../assets/logo_transparent.png") !important;
+}     
