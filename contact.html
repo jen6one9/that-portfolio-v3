@@ -1,89 +1,73 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
-    <title>Jeneth Diesta</title>
-    <link rel="stylesheet" href="/css/pure/pure-min.css">
-    <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="/layouts/marketing/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
-    <link rel="stylesheet" href="/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-
-    <div class="header">
-        <div class="nav bar">
-            <a class="pure-menu-heading" href="">Jeneth Diesta</a>
-
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">About Me</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">jeneth diesta</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="jeneth.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </div>
-
- 
-
-    <div class="content-wrapper">
-        
-
-        <div class="content">
-            <h2 class="content-head is-center">Drop a Note.</h2>
-
-            <div class="pure-g">
-                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                    <form class="pure-form pure-form-stacked">
-                        <fieldset>
-
-                            <label for="name">Name</label>
-                            <input id="name" type="text" placeholder=" Enter Name">
-
-
-                            <label for="email">Email</label>
-                            <input id="email" type="email" placeholder="example@gmail.com">
-
-                            <label for="MessageArea">Message</label>
-                            <textarea class="form-control" id="MessageArea" rows="6"></textarea>
-
-                            <button type="submit" class="pure-button">
-                            <a href="mailto:diesta.jeneth@gmail.com">Send Email</button></a>
-                        </fieldset>
-                    </form>
-                </div>
-
-                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                    <h4>Contact Us</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-
-                    <h4>More Information</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>drop a note</h3>
             </div>
-
         </div>
+        <div class="row">
+            <div class=" col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter name">
 
-        <div class="footer l-box is-center">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="MessageArea">Message</label>
+                        <textarea class="form-control" id="MessageArea" rows="6"></textarea>
+
+                    </div>
+                    <a href="mailto:diesta.jeneth@gmail.com">Send Email</button></a>
+
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <footer class="page-footer">
+        <div class="pgfooter">
             © 2020 Copyright Jeneth Diesta
         </div>
-
-    </div>
+        </div>
+    </footer>
     <!--JavaScript at end of body for optimized loading-->
-    <script src="/js/ui.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>

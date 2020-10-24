@@ -2,109 +2,122 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <title>Jeneth Diesta</title>
-    <link rel="stylesheet" href="/css/pure/pure-min.css">
-    <link rel="stylesheet" href="/layouts/side-menu/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
-    <link rel="stylesheet" href="/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <div id="layout">
-        <!-- Menu toggle -->
-        <a href="#menu" id="menuLink" class="menu-link">
-            <!-- Hamburger icon -->
-            <span></span>
-        </a>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">jeneth diesta</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="jeneth.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <div id="menu">
-            <div class="pure-menu">
-                <a class="pure-menu-heading" href="#">Jeneth Diesta</a>
+    <div class="container">
+        <h3>my work in progress</h3>
+        <div class="row">
 
-                <ul class="pure-menu-list">
-                    <li><a href="index.html">About Me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-
-                    <!-- <li class="pure-menu-item menu-item-divided pure-menu-selected">
-                        <a href="#" class="pure-menu-link">Services</a>
-                    </li> -->
-
-                    <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-                </ul>
+            <div class="col s6">
+                <a href="https://project-hypnos.herokuapp.com/" target="_blank">
+                    <div class="card-panel hoverable">Project Hypnos
+                        <img src="./assets/sleep.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                            alt="Responsive image">
+                </a>
+                <p> <a href="https://github.com/KILowrey/hypnos" target="_blank">Git Repo</a></p>
+                <p>Sleep App to help gain a better night's rest</p>
             </div>
         </div>
 
-        <div id="main">
-            <div class="header">
-                <h1>Jeneth</h1>
-                <h2>My Work in Progress</h2>
-            </div>
-
-            <div class="content">
-                <h2 class="content-subhead">About Me</h2>
-                <p>
-                    To use this layout, you can just copy paste the HTML, along with the CSS in <a
-                        href="/layouts/side-menu/styles.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript
-                    in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an
-                    <code>active</code> class that makes the menu responsive.
-                </p>
-
-                <h2 class="content-subhead">About Me</h2>
-                <p> I'm Jeneth, an IT project manager for a global financial institution with experience
-                    in managing offshore/onshore teams for multi-million dollar technology projects. My journey in
-                    tech began as a systems analyst associate, testing for both mainframe systems and online banking
-                    applications. I'm a Certified Scrum Master and looking to expand my skillset by
-                    becoming an IT Tech Lead within my dynamic team. I am firm believer in the power of
-                    collaboration, grit and teamwork to successfully execute projects. I also believe in the
-                    importance of peer recognition as an important building block in creating an excellent company culture. 
-                    Above all else, I've developed a customer first mindset.  I believe in earning and keeping the customer's trust. This means paying close attention
-                    to the details and ensuring the user has an excellent experience. 
-                    
-                 <p>Beyond the normal work day, I'm actively involved in NextGen Leaders, an employee resource group
-                    (ERG) which seeks to bring together diverse individuals across the generations to network,
-                    collaborate, and make meaningful connections.</p>
-
-                <div class="pure-g">
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive"
-                            src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive"
-                            src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive"
-                            src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive"
-                            src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
-                    </div>
-                </div>
-
-                <h2 class="content-subhead">Try Resizing your Browser</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
+        <div class="col s6">
+            <a href="https://jen6one9.github.io/that-password-generator/" target="_blank">
+                <div class="card-panel hoverable"> Random Password Generator
+                    <img src="./assets/keyboard.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                        alt="Responsive image">
+            </a>
+            <p> <a href="https://github.com/jen6one9/that-password-generator" target="_blank">Git Repo</a></p>
+            <p>App generates a password based on user selected criteria </p>
         </div>
     </div>
-    </footer>
 
+    <div class="col s6">
+        <a href="https://jen6one9.github.io/that-team-profile-generator/" target="_blank">
+            <div class="card-panel hoverable"> Team Profile Generator
+                <img src="./assets/team.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                    alt="Responsive image">
+        </a>
+        <p> <a href="https://github.com/jen6one9/that-team-profile-generator" target="_blank">Git Repo</a></p>
+        <p>Web app that displays a team's basic info for quick access to their emails and GitHub profiles </p>
+    </div>
+    </div>
+
+    <div class="col s6">
+        <a href="https://drive.google.com/file/d/1_xUb0MZ_cAgjMrP5Y49RvdLIMPCJ-cpW/view?usp=sharing/" target="_blank">
+            <div class="card-panel hoverable"> ReadMe Generator
+                <img src="./assets/nerd.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                    alt="Responsive image">
+        </a>
+        <p> <a href="https://github.com/jen6one9/that-readme-generator" target="_blank">Git Repo</a>
+        </p>
+        <p>command line app that allows input using the inquirer package to dynamically generate a README.md file </p>
+
+    </div>
+    </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col s6">
+            <a href="https://jen6one9.github.io/that-weather-dashboard/" target="_blank">
+                <!--target="blank" allows the user to see this url in a new tab-->
+                <div class="card-panel hoverable"> Weather Dashboard
+                    <img src="./assets/iphone.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                        alt="Responsive image">
+            </a>
+            <p> <a href="https://github.com/jen6one9/that-weather-dashboard" target="_blank">Git Repo
+                </a></p>
+            <p> Simple weather app that leverages the OpenWeather API</p>
+
+        </div>
+    </div>
+
+
+    <div class="col s6">
+        <a href="https://clydebaron2000.github.io/Covid-Danger-Data/" target="_blank">
+            <div class="card-panel hoverable"> Covid Danger Data
+                <!--hover features allows the user to see card is a clickable link-->
+                <img src="./assets/fire.jpg" class="responsive-img" height="300" width="455" class="img-fluid"
+                    alt="Responsive image">
+        </a>
+        <p> <a href="https://github.com/clydebaron2000/Covid-Danger-Data/tree/jeneth-branch" target="_blank">Git
+                Repo</a></p>
+        <p> App that delivers CA wildfire info in the midst of Covid-19</p>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <div class="pgfooter">
+            © 2020 Copyright Jeneth Diesta
+        </div>
+        </div>
+    </footer>
     <!--JavaScript at end of body for optimized loading-->
-    <script src="/js/ui.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>
