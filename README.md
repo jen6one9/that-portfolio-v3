@@ -6,9 +6,9 @@ As a coding bootcamp student, I want to update my portfolio to showcase the prog
 
 
 ## Preview
-![alt-text](portfolio.GIF)
 
-![alt-text](portfolio2.GIF)
+
+![alt-text](index.GIF)
 
 ## Deployed Site Link
 Here's the link to my app: https://jen6one9.github.io/that-portfolio-v2/.
