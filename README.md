@@ -10,6 +10,9 @@ As a coding bootcamp student, I want to update my portfolio to showcase the prog
 
 ![alt-text](index.GIF)
 
+
+![alt-text](portfolio2.GIF)
+
 ## Deployed Site Link
 Here's the link to my app: https://jen6one9.github.io/that-portfolio-v2/.
 
