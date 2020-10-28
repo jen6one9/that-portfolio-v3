@@ -1,4 +1,4 @@
-# that-portfolio-v2
+# that-portfolio-v3
 Updated portfolio featuring examples of my deployed projects and homework assignments.
 ## User Story
 As a coding bootcamp student, I want to update my portfolio to showcase the progress in my coding journey thus far. 
